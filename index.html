@@ -16,9 +16,9 @@
     />
     <title>Title</title>
   </head>
-  <body>
+  <body class="d-flex">
     <!-- begin aside -->
-    <aside class="col-2 px-0">
+    <aside class="col-2 px-0 m-0">
       <div class="container-fluid">
         <!-- begin logo -->
         <div class="row border-bottom px-0">
@@ -38,7 +38,7 @@
             </button>
           </div>
           <div class="ml-4 my-4">
-            <a href="" class="text-white"></a>
+            <a href="#" class="text-white">
               <i class="fas fa-tachometer-alt text-white mx-3 p-0"></i>
               Dashboard
             </a>
@@ -46,51 +46,42 @@
         </div>
         <!-- end cta -->
         <!-- begin props and books -->
-          <!-- begin properties -->
-          <div class="row border-bottom px-0 d-flex flex-column">
-            <h5 class="pt-2 mx-auto">PROPERTIES AND BOOKINGS</h5>
-            <div class="ml-4 my-4 d-flex flex-column">
-              <a
-                class="text-white mb-3"
-                data-toggle="collapse"
-                href="#propsCollapsible"
-              >
-                <i class="fas fa-user text-white mx-3 p-0"></i>
-                Properties
-              </a>
-  
-              <!-- begin propsCollapsible -->
-              <div class="collapse" id="propsCollapsible">
-                <div class="card card-body w-90 mb-3 p-2">
-                  <a href="" class="m-2">All properties</a>
-                  <a href="" class="m-2">Add new property</a>
-                </div>
-              </div>
-              <!-- end propsCollapsible -->
-              <a
+        <!-- begin properties -->
+        <div class="row border-bottom px-0 d-flex flex-column">
+          <h5 class="pt-2 mx-auto">PROPERTIES AND BOOKINGS</h5>
+          <div class="ml-4 my-4 d-flex flex-column">
+            <a
               class="text-white mb-3"
-              href="#"
+              data-toggle="collapse"
+              href="#propsCollapsible"
             >
+              <i class="fas fa-user text-white mx-3 p-0"></i>
+              Properties
+            </a>
+
+            <!-- begin propsCollapsible -->
+            <div class="collapse" id="propsCollapsible">
+              <div class="card card-body w-90 mb-3 p-2">
+                <a href="" class="m-2">All properties</a>
+                <a href="" class="m-2">Add new property</a>
+              </div>
+            </div>
+            <!-- end propsCollapsible -->
+            <a class="text-white mb-3" href="#">
               <i class="fas fa-calendar-check text-white mx-3 p-0"></i>
               Bookings
             </a>
-              <a
-              class="text-white mb-3"
-              href=""
-            >
+            <a class="text-white mb-3" href="">
               <i class="fas fa-calendar text-white mx-3 p-0"></i>
               Calendar
             </a>
-              <a
-              class="text-white mb-3"
-              href=""
-            >
+            <a class="text-white mb-3" href="">
               <i class="fas fa-fax text-white mx-3 p-0"></i>
               Marketing
             </a>
-            </div>
           </div>
-          <!-- end accounts -->
+        </div>
+        <!-- end accounts -->
         <!-- end props and books -->
         <!-- begin accounts -->
         <div class="row px-0 d-flex flex-column">
@@ -122,9 +113,127 @@
           </div>
         </div>
         <!-- end accounts -->
-        <div class="col-10"></div>
       </div>
     </aside>
+    <main class="col-10 px-0">
+      <nav class="w-100 m-0 p-0">
+        <div class="d-flex mx-3 my-auto justify-content-end pt-4">
+          <a href="#" class="mx-3">Help Guides</a>
+          <a href="#">Account</a>
+        </div>
+      </nav>
+      <!-- begin main content -->
+      <div class="main__content mx-6 mt-5">
+        <h3 class="font-weight-bold mb-4">All Bookings</h3>
+        <p>View and manage your bookings</p>
+
+        <hr />
+
+        <h5 class="font-weight-bold mb-5">Here is a list of your bookings</h5>
+        <section class="w-auto">
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+          <!-- begin cta item-->
+          <article class="bg-dark p-3 border rounded mb-5">
+            <div class="section__item d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="fa fa-check text-danger mx-1"></i>
+                <p>Lawrence Natty</p>
+              </div>
+
+              <p>Arrival Date: 20/02/2020</p>
+              <p>Departure Date: 20/02/2020</p>
+              <button class="bg-white p-2 border rounded font-weight-bold mr-0">
+                Contact Customer
+              </button>
+            </div>
+          </article>
+          <!-- end cta -->
+        </section>
+      </div>
+      <!-- end main content -->
+      <!-- begin footer -->
+      <div class="col-12 bg-primary footer">wdqwd</div>
+      <!-- end footer -->
+    </main>
 
     <!-- end aside -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
