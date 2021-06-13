@@ -131,11 +131,13 @@ body {
 	color: white;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: left;
+	min-width: 690px;
 }
 
 aside {
 	background:var(--dark);
 	height: 100vh;
+	min-width: 220px;
 }
 
 .aside__logo {
@@ -151,6 +153,10 @@ aside {
 	color: white;
 	height: 2.5rem;
 	width: 10rem;
+}
+
+.w-90{
+	width: 90%;
 }
 
 
