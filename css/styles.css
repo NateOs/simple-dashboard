@@ -215,5 +215,6 @@ nav a {
   margin-right: 2em;
 }
 .w-auto {
-  width: fit-content;
+  width: fit-content !important;
 }
+
